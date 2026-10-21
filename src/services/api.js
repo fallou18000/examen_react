@@ -1,4 +1,4 @@
-const BASE = "http://localhost:3001";
+const BASE = "https://api-json-la7h.onrender.com/db.json";
 
 async function request(path, options = {}) {
   const res = await fetch(BASE + path, {
