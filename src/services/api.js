@@ -1,4 +1,4 @@
-const BASE = "https://api-json-la7h.onrender.com/db.json";
+const BASE = "https://api-json-plzl.onrender.com";
 
 async function request(path, options = {}) {
   const res = await fetch(BASE + path, {
